@@ -17,7 +17,7 @@ export default function Home() {
           tagline={portfolioData.tagline}
           photoUrl={portfolioData.photoUrl}
         />
-        <AchievementsSection achievements={portfolioData.achievements} />
+        {portfolioData.achievements.length > 0 && <AchievementsSection achievements={portfolioData.achievements} />}
         <ExperienceSection experience={portfolioData.experience} />
         <ProjectsSection projects={portfolioData.projects} />
         <ContactSection contact={portfolioData.contact} />

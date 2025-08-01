@@ -16,6 +16,10 @@ interface AchievementsSectionProps {
 }
 
 export function AchievementsSection({ achievements }: AchievementsSectionProps) {
+  if (achievements.length === 0) {
+    return null;
+  }
+  
   return (
     <Section id="achievements" className="bg-secondary">
       <h2 className="text-3xl font-bold text-center mb-12">Key Achievements</h2>
@@ -40,7 +44,7 @@ export function AchievementsSection({ achievements }: AchievementsSectionProps) 
                   )}
                 </div>
               )}
-              <div className="flex flex-col">
+              <div className={`flex flex-col ${!achievement.imageUrl ? 'md:col-span-2' : ''}`}>
                 <CardHeader>
                   <div className="flex items-center gap-4">
                     <Award className="w-8 h-8 text-primary" />

@@ -1,12 +1,12 @@
 import { Section } from './Section';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
-import { Briefcase } from 'lucide-react';
+import { Briefcase, Dot } from 'lucide-react';
 
 interface ExperienceItem {
   company: string;
   role: string;
   period: string;
-  description: string;
+  description: string[];
 }
 
 interface ExperienceSectionProps {
@@ -34,7 +34,14 @@ export function ExperienceSection({ experience }: ExperienceSectionProps) {
                 </div>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground">{item.description}</p>
+                <ul className="space-y-2 text-muted-foreground">
+                  {item.description.map((point, i) => (
+                    <li key={i} className="flex">
+                      <Dot className="h-5 w-5 shrink-0 -ml-1 text-primary" />
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ul>
               </CardContent>
             </Card>
           </div>
