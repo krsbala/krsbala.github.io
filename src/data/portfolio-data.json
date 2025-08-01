@@ -1,0 +1,65 @@
+{
+  "name": "Alex Doe",
+  "tagline": "Full-Stack Developer & UI/UX Enthusiast",
+  "photoUrl": "https://placehold.co/200x200.png",
+  "contact": {
+    "email": "alex.doe@example.com",
+    "linkedin": "https://linkedin.com/in/alexdoe",
+    "github": "https://github.com/alexdoe"
+  },
+  "achievements": [
+    {
+      "value": "10+",
+      "label": "Projects Completed"
+    },
+    {
+      "value": "5+",
+      "label": "Years of Experience"
+    },
+    {
+      "value": "3",
+      "label": "Major Hackathons Won"
+    },
+    {
+      "value": "100k+",
+      "label": "Lines of Code Written"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Tech Innovations Inc.",
+      "role": "Senior Software Engineer",
+      "period": "2020 - Present",
+      "description": "Led the development of a scalable microservices architecture for a new cloud platform. Mentored junior developers and improved code quality by 30%."
+    },
+    {
+      "company": "Creative Solutions LLC",
+      "role": "Frontend Developer",
+      "period": "2018 - 2020",
+      "description": "Developed and maintained responsive user interfaces for various client websites using React and Vue.js. Collaborated with designers to create visually appealing and user-friendly web applications."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Project Alpha",
+      "description": "A comprehensive project management tool with real-time collaboration features.",
+      "imageUrl": "https://placehold.co/600x400.png",
+      "aiHint": "abstract tech",
+      "link": "#"
+    },
+    {
+      "title": "Project Beta",
+      "description": "An e-commerce platform with a custom recommendation engine and a seamless checkout process.",
+      "imageUrl": "https://placehold.co/600x400.png",
+      "aiHint": "online store",
+      "link": "#"
+    },
+    {
+      "title": "Project Gamma",
+      "description": "A mobile app for tracking personal fitness goals and connecting with a community of users.",
+      "imageUrl": "https://placehold.co/600x400.png",
+      "aiHint": "fitness app",
+      "link": "#"
+    }
+  ]
+}
