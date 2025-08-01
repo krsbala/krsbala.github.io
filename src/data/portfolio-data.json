@@ -9,20 +9,29 @@
   },
   "achievements": [
     {
-      "value": "10+",
-      "label": "Projects Completed"
+      "title": "10+ Projects Completed",
+      "description": "Successfully delivered over ten software projects for various clients, from small business websites to large-scale enterprise applications.",
+      "imageUrl": "https://placehold.co/600x400.png",
+      "imageCaption": "A glimpse of a project dashboard.",
+      "aiHint": "dashboard chart"
     },
     {
-      "value": "5+",
-      "label": "Years of Experience"
+      "title": "5+ Years of Experience",
+      "description": "Over five years of professional experience in software development, working with modern technologies and agile methodologies.",
+      "imageUrl": "https://placehold.co/600x400.png",
+      "imageCaption": "My trusty workspace.",
+      "aiHint": "desk setup"
     },
     {
-      "value": "3",
-      "label": "Major Hackathons Won"
+      "title": "3 Major Hackathons Won",
+      "description": "Awarded first place in three major national and international hackathons, recognized for innovative solutions and rapid prototyping.",
+      "imageUrl": "https://placehold.co/600x400.png",
+      "imageCaption": "The winning team.",
+      "aiHint": "team collaboration"
     },
     {
-      "value": "100k+",
-      "label": "Lines of Code Written"
+      "title": "100k+ Lines of Code Written",
+      "description": "Have written and maintained a large volume of high-quality code across multiple programming languages and frameworks."
     }
   ],
   "experience": [
