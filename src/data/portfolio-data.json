@@ -7,7 +7,15 @@
     "linkedin": "https://www.linkedin.com/in/balamurugan-t-567957216/",
     "github": "https://github.com/krsbala"
   },
-  "achievements": [],
+  "achievements": [
+    {
+      "title": "HackathonX Capture The Flag Winner",
+      "description": "Our team of 3 secured second place and received ₹50,000 cash prize in the HackathonX Capture The Flag competition organised by the National Cyber Security Research Council (NCSRC).",
+      "imageUrl": "https://placehold.co/600x400.png",
+      "imageCaption": "Receiving the prize from Former Supreme Court Justice V. Ramasubramanian, J. Jareena Begam, Deputy Commissioner of Police, Cyber Crime Cell and Director of NCSRC Dr. E. Khalieraaj.",
+      "aiHint": "award ceremony"
+    }
+  ],
   "experience": [
     {
       "company": "EnergyETA",
