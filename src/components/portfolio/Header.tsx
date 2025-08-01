@@ -1,4 +1,5 @@
 "use client";
+import portfolioData from '@/data/portfolio-data.json';
 
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
@@ -18,7 +19,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto flex h-14 max-w-screen-2xl items-center justify-between px-4">
         <a href="#hero" className="font-bold text-primary text-lg">
-          Profile Dark
+        {portfolioData.name}
         </a>
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
           {navLinks.map((link) => (
