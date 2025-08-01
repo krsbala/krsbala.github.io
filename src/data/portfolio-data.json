@@ -1,3 +1,4 @@
+
 {
   "name": "Balamurugan T",
   "tagline": "Cybersecurity and IoT enthusiast with hands-on experience in advanced vulnerability assessments using Nessus and OpenVAS. Proven ability to identify critical vulnerabilities, prioritize risks, and collaborate with cross-functional teams to implement scalable security solutions. Passionate about IoT innovation, ensuring seamless integration of secure technologies aligned with evolving industry standards.",
@@ -14,6 +15,10 @@
       "imageUrl": "https://placehold.co/600x400.png",
       "imageCaption": "Receiving the prize from Former Supreme Court Justice V. Ramasubramanian, J. Jareena Begam, Deputy Commissioner of Police, Cyber Crime Cell and Director of NCSRC Dr. E. Khalieraaj.",
       "aiHint": "award ceremony"
+    },
+    {
+      "title": "Cyber Security and Digital Forensic Club Student Coordinator",
+      "description": "Served as the Student Coordinator for the Cyber Security and Digital Forensic Club, organizing events and promoting cybersecurity awareness among students."
     }
   ],
   "experience": [
