@@ -1,0 +1,66 @@
+
+{
+  "name": "Balamurugan T",
+  "tagline": "Cybersecurity and IoT enthusiast with hands-on experience in advanced vulnerability assessments using Nessus and OpenVAS. Proven ability to identify critical vulnerabilities, prioritize risks, and collaborate with cross-functional teams to implement scalable security solutions. Passionate about IoT innovation, ensuring seamless integration of secure technologies aligned with evolving industry standards.",
+  "photoUrl": "/balamurugan-profile-photo.jpg",
+  "contact": {
+    "email": "balamurugan02082003@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/balamurugan-t-567957216/",
+    "github": "https://github.com/krsbala"
+  },
+  "achievements": [
+    {
+      "title": "HackathonX Capture The Flag Winner",
+      "description": "Our team of 3 secured second place and received ₹50,000 cash prize in the HackathonX Capture The Flag competition organised by the National Cyber Security Research Council (NCSRC).",
+      "imageUrl": "/hackathonx24.jpg",
+      "imageCaption": "Receiving the prize from Former Supreme Court Justice V. Ramasubramanian, J. Jareena Begam, Deputy Commissioner of Police, Cyber Crime Cell and Director of NCSRC Dr. E. Khalieraaj.",
+      "aiHint": "award ceremony"
+    },
+    {
+      "title": "Cyber Security and Digital Forensic Club Student Coordinator",
+      "description": "Served as the Student Coordinator for the Cyber Security and Digital Forensic Club for the academic year 2024-25, organizing events and promoting cybersecurity awareness among students."
+    }
+  ],
+  "experience": [
+    {
+      "company": "EnergyETA",
+      "role": "IoT Engineer Intern",
+      "period": "Feb 2024 - April 2024",
+      "description": [
+        "Developed and programmed IoT devices, ensuring efficient functionality and reliability.",
+        "Integrated sensors for accurate data collection and analysis.",
+        "Worked with cloud-based IoT platforms to process and analyze collected data.",
+        "Collaborated effectively within a multidisciplinary team to complete project objectives.",
+        "Demonstrated strong problem-solving skills and attention to detail in troubleshooting and optimizing IoT systems."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "File Transfer via Socket",
+      "description": [
+        "Developed a secure IoT-based file transfer system using socket programming, incorporating encryption and error handling to ensure data integrity and reliability.",
+        "Optimized system performance through rigorous testing."
+      ],
+      "__link": "#"
+    },
+    {
+      "title": "Vulnerability Assessment",
+      "description": [
+        "I have hands-on experience conducting a comprehensive vulnerability assessment project, where I successfully identified and mitigated critical security vulnerabilities using tools like Nessus and OpenVAS.",
+        "This involved prioritizing vulnerabilities based on risk and collaborating with the IT team to implement effective remediation strategies.",
+        "My work ensured enhanced security and compliance with industry standards."
+      ],
+      "__link": "#"
+    },
+    {
+      "title": "Mobile App Security Using Mobsf",
+      "description": [
+        "Performed end-to-end mobile app security analysis leveraging APKTool, JADX, QARK, APKLab, and MobSF.",
+        "Identified and mitigated vulnerabilities in data storage, access control, and logging.",
+        "Delivered comprehensive reports, strengthening app resilience against real-world cyber threats."
+      ],
+      "__link": "#"
+    }
+  ]
+}
