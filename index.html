@@ -71,7 +71,7 @@
                 <ul class="list-disc pl-5 mt-2 space-y-1 text-gray-300">
                   ${proj.description.map(line => `<li>${line}</li>`).join('')}
                 </ul>
-                ${proj._link ? `<a href="${proj._link}" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 text-indigo-400 hover:underline">View on GitHub →</a>` : ''}
+                ${proj.__link ? `<a href="${proj.__link}" target="_blank" rel="noopener noreferrer" class="inline-block mt-4 text-indigo-400 hover:underline">View on GitHub →</a>` : ''}
               </div>
             `).join('')}
           </div>

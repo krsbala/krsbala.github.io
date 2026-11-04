@@ -55,7 +55,7 @@
         "Developed a Python-based security analysis tool to identify vulnerabilities in public GitHub repositories using pip-audit, Semgrep, and custom heuristic-based detection.",
         "Identified vulnerable dependencies, insecure coding patterns, weak cryptographic algorithms (MD5 and SHA-1), and hardcoded secrets.",
         "Implemented duplicate finding removal, false-positive filtering, and weighted risk scoring to categorize vulnerabilities into High, Medium, and Low severity levels.",
-        "Developed a FastAPI backend** with an interactive dashboard for displaying security findings, risk scores, and vulnerability statistics.",
+        "Developed a FastAPI backend with an interactive dashboard for displaying security findings, risk scores, and vulnerability statistics.",
         "Integrated PDF security report generation using ReportLab to provide downloadable vulnerability assessment reports."
       ],
       "__link": "https://github.com/krsbala/github-repository-security-analyzer"
