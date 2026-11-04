@@ -33,23 +33,48 @@
         "Collaborated effectively within a multidisciplinary team to complete project objectives.",
         "Demonstrated strong problem-solving skills and attention to detail in troubleshooting and optimizing IoT systems."
       ]
+    },
+    {
+      "company": "Net Access India Limited",
+      "role": "Cyber Security Intern (VAPT)",
+      "period": "March 2026 - June 2026",
+      "description": [
+        "Performed web application security testing on designated test environments using Burp Suite.",
+        "Conducted vulnerability assessment and advanced scanning using Nessus, exploring scan configurations and identifying potential security vulnerabilities.",
+        "Practised network reconnaissance, port scanning and connectivity analysis using Nmap and network diagnostic commands.",
+        "Performed web directory and file enumeration using wordlists to identify hidden application paths and resources.",
+        "Gained exposure to digital risk protection and threat intelligence workflows through CloudSEK, including security alert validation and client communication procedures.",
+        "Observed SOC monitoring workflows using IBM QRadar, understanding security alert generation, event monitoring and initial investigation procedures."
+      ]
     }
   ],
   "projects": [
     {
-      "title": "File Transfer via Socket",
+      "title": "GitHub Repository Security Analyzer",
       "description": [
-        "Developed a secure IoT-based file transfer system using socket programming, incorporating encryption and error handling to ensure data integrity and reliability.",
-        "Optimized system performance through rigorous testing."
+        "Developed a Python-based security analysis tool to identify vulnerabilities in public GitHub repositories using **pip-audit, Semgrep, and custom heuristic-based detection**.",
+        "Identified vulnerable dependencies, insecure coding patterns, weak cryptographic algorithms (MD5 and SHA-1), and hardcoded secrets.",
+        "Implemented **duplicate finding removal, false-positive filtering, and weighted risk scoring** to categorize vulnerabilities into High, Medium, and Low severity levels.",
+        "Developed a **FastAPI backend** with an interactive dashboard for displaying security findings, risk scores, and vulnerability statistics.",
+        "Integrated **PDF security report generation** using ReportLab to provide downloadable vulnerability assessment reports."
       ],
-      "__link": "#"
+      "__link": "https://github.com/krsbala/github-repository-security-analyzer"
     },
     {
-      "title": "Vulnerability Assessment",
+      "title": "Secure Electronic Health Record (EHR) Management System",
       "description": [
-        "I have hands-on experience conducting a comprehensive vulnerability assessment project, where I successfully identified and mitigated critical security vulnerabilities using tools like Nessus and OpenVAS.",
-        "This involved prioritizing vulnerabilities based on risk and collaborating with the IT team to implement effective remediation strategies.",
-        "My work ensured enhanced security and compliance with industry standards."
+        "Developed a Python-based EHR management application using PyQt5, implementing user authentication and a graphical dashboard for patient record management.",
+        "Implemented AES-256 encryption for patient records and SHA-256 hashing for data integrity verification, with a local blockchain-based mechanism for maintaining tamper-evident audit logs.",
+        "Integrated Suricata IDS to retrieve and display network security alerts within the application, and conducted a Hydra brute-force attack simulation against a Flask-based login server, with network traffic analysis using Wireshark."
+      ],
+      "__link": "https://github.com/krsbala/secure-ehr-management-system"
+    },
+    {
+      "title": "Comparative Analysis and Benchmarking of Web Application Vulnerability Assessment Tools",
+      "description": [
+        "Conducted practical vulnerability assessments on a web application using four security tools: Acunetix, OWASP ZAP, W3AF, and Skipfish to identify and examine potential security vulnerabilities.",
+        "Performed reconnaissance, executed vulnerability scans, and analyzed the results to compare the tools based on vulnerability detection capabilities, scanning performance, usability, and reporting features.",
+        "Evaluated and compared the findings across all four tools, with Acunetix demonstrating the highest vulnerability detection in the tested environment."
       ],
       "__link": "#"
     },
